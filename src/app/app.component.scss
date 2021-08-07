@@ -1,0 +1,178 @@
+.main-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .main-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3.5rem;
+    background: #16ba77;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: white;
+      margin-left: 1.5rem;
+      border: 0.2rem solid white;
+      border-radius: 50%;
+    }
+
+    span {
+      color: white;
+      margin-left: 0.5rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+  }
+
+  .message {
+    display: flex;
+    color: red;
+    width: 20rem;
+    margin-top: 2rem;
+    border: 0.2rem solid red;
+    background: white;
+    border-radius: 0.4rem;
+    padding: 1rem;
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.5rem;
+      height: 1.5rem;
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-right: 0.2rem;
+    }
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    margin-top: 1.5rem;
+    background: white;
+    border-radius: 0.4rem;
+
+    .profile-pic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 7rem;
+      height: 7rem;
+      border: 0.2rem dashed #16ba77;
+      border-radius: 50%;
+      margin-top: 1rem;
+
+      img {
+        width: 6rem;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
+
+    .name {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 0.5rem;
+    }
+
+    .field {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 12rem;
+      margin-bottom: 1.5rem;
+
+      .icon {
+        margin-right: 0.2rem;
+        cursor: pointer;
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 2.6rem;
+          height: 2.6rem;
+          background: #f3f3f3;
+          border-radius: 0.2rem;
+
+          &:hover {
+            border: 0.15rem solid #16ba77;
+          }
+        }
+
+        img {
+          width: 1.6rem;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .interests {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20rem;
+    margin-top: 1.5rem;
+    background: white;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+
+    img {
+      height: 3rem;
+      width: auto;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 3.5rem;
+      height: 3.5rem;
+      background: #f3f3f3;
+      margin-right: 0.2rem;
+      border-radius: 0.4rem;
+
+      .js {
+        height: 2.5rem;
+        width: auto;
+      }
+
+      .py {
+        height: 2.5rem;
+        width: auto;
+      }
+    }
+  }
+
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    color: gray;
+  }
+}
